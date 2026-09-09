@@ -360,6 +360,44 @@
     transition: border-color .25s ease, color .25s ease;
   }
   .link-grid a:hover{ border-color: var(--gold-soft); color: var(--gold-soft); }
+  .family-links{
+    margin-top: 42px;
+    text-align:center;
+  }
+  .family-label{
+    font-size:0.75rem;
+    letter-spacing:0.12em;
+    color:#8B8776;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .family-grid{
+    display:flex; justify-content:center; gap: 14px; flex-wrap:wrap;
+  }
+  .family-grid a{
+    display:block;
+    min-width: 220px;
+    padding: 18px 22px;
+    border:1px solid rgba(201,162,39,0.25);
+    background: rgba(255,255,255,0.02);
+    transition: border-color .25s ease, transform .25s ease;
+  }
+  .family-grid a:hover{
+    border-color: rgba(201,162,39,0.8);
+    transform: translateY(-1px);
+  }
+  .family-grid span{
+    display:block;
+    font-size:0.72rem;
+    color:#8B8776;
+    letter-spacing:0.08em;
+    margin-bottom: 6px;
+  }
+  .family-grid strong{
+    font-size:1rem;
+    font-weight:500;
+    color: var(--cream-text);
+  }
   .contact{
     margin-top: 56px;
     font-size:0.85rem;
@@ -397,8 +435,6 @@
     <div class="cta-row">
       <a class="cta" href="https://www.youtube.com/@morae_artist" target="_blank">유튜브</a>
       <a class="cta" href="https://www.instagram.com/morae_artist" target="_blank">인스타그램</a>
-      <a class="cta" href="https://morae-kim.github.io/Gugakjazz-site/" target="_blank">국악재즈라운지</a>
-      <a class="cta" href="https://morae-kim.github.io/Damot-site/" target="_blank">다못</a>
     </div>
   </div>
   <div class="scroll-cue">SCROLL</div>
@@ -682,9 +718,22 @@
       <a href="https://open.spotify.com/artist/0XbScqtMzoLrlroLEkYPgC" target="_blank">Spotify</a>
       <a href="https://music.apple.com/kr/artist/%EB%AA%A8%EB%9E%98/1449778640" target="_blank">Apple Music</a>
       <a href="http://kko.to/eI5CAw2wM" target="_blank">Melon</a>
-      <a href="https://morae-kim.github.io/Gugakjazz-site/" target="_blank">국악재즈라운지</a>
-      <a href="https://morae-kim.github.io/Damot-site/" target="_blank">다못</a>
     </div>
+
+    <div class="family-links">
+      <div class="family-label">Related Activities</div>
+      <div class="family-grid">
+        <a href="https://morae-kim.github.io/Gugakjazz-site/" target="_blank">
+          <span>국악재즈 교육 활동</span>
+          <strong>국악재즈라운지</strong>
+        </a>
+        <a href="https://morae-kim.github.io/Damot-site/" target="_blank">
+          <span>앙상블 팀 활동</span>
+          <strong>다못</strong>
+        </a>
+      </div>
+    </div>
+
     <div class="contact">
       <a href="mailto:ariarimina@gmail.com">ariarimina@gmail.com</a> &nbsp;·&nbsp; 010-8848-4520
     </div>
